@@ -112,6 +112,8 @@ services:
       retries: 3
     depends_on:
       db:
+        ports:
+          - "127.0.0.1:5432:5432"
         # Disable this if you are using an external Postgres database
         condition: service_healthy
       analytics:
