@@ -360,9 +360,7 @@ services:
       [
         "start",
         "--main-service",
-        "/home/deno/functions/main",
-        "- --host",
-        "- 0.0.0.0"
+        "/home/deno/functions/main"
       ]
 
   analytics:
