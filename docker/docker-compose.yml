@@ -364,6 +364,7 @@ services:
       RHID_EMAIL: ${RHID_EMAIL}
       RHID_PASSWORD: ${RHID_PASSWORD}
       RHID_DOMAIN: ${RHID_DOMAIN}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
       # TODO: Allow configuring VERIFY_JWT per function. This PR might help: https://github.com/supabase/cli/pull/786
       VERIFY_JWT: "${FUNCTIONS_VERIFY_JWT}"
     command:
